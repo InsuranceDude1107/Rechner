@@ -37,5 +37,5 @@ public class Umrechnungsmodul {
 
 		return euro;
 	}
-
+	// HAHAHAHAAH Geändert
 }
