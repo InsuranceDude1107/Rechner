@@ -2,21 +2,21 @@ package Kalkulator;
 
 public class Umrechnungsmodul {
 
-	public double celsiusZuFahrenheit(double grad) {
+	public static double celsiusZuFahrenheit(double grad) {
 
 		double fahrenheit = (grad * 9 / 5) + 32;
 
 		return fahrenheit;
 	}
 
-	public double fahrenheitZuCelsius(double fahrenheit) {
+	public static double fahrenheitZuCelsius(double fahrenheit) {
 
 		double celsius = (fahrenheit - 32) * 5 / 9;
 
 		return celsius;
 	}
 
-	public double euroZuDollar(double euro) {
+	public static double euroZuDollar(double euro) {
 
 		double dollar = euro * 1.14 * 100;
 
@@ -27,7 +27,7 @@ public class Umrechnungsmodul {
 		return dollar;
 	}
 
-	public double dollarZuEuro(double dollar) {
+	public static double dollarZuEuro(double dollar) {
 
 		double euro = dollar * 0.88;
 
